@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="/css/form.css">
+    <style>
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+</style>
+ 
+</head>
+<body>
+     <div class="background-color">
+            <div class="picture">
+                <div class="input-box">
+                    <span>
+                        <h2>SignUp</h2>
+                        <!-- <img onclick="changecolor()" id="moon" src="/icons/moon.png" alt="moon"> -->
+                        <!-- <button  onclick="chBackcolor('red');" >BackgroundColorBlack</button> -->
+                    </span>
+                    <h5>There is no charge upon registration!</h5>
+                <form action="">
+                    <label for="email">Email Address</label>
+                        <input id="Email" type="email" placeholder="hello@mysite.com">
+                        <label for="text">Country</label>
+                        <input type="text" placeholder="Germany" id="country" name="country">
+                        <select name="CountryList" id="Countrylist">
+                            <option value=""></option>
+                            <option value="USA">USA</option>
+                            <option value="Georgia">Georgia</option>
+                            <option value="Sweden">Sweden</option>
+                            <option value="French">French</option>
+                            <option value="Austria">Austria</option>
+                            <Option value="Turkey">Turkey</Option>
+                        </select>
+                        <div class="flex">
+                            <div class="city">
+                                <label for="City">City</label>
+                                <input id="City" type="text" placeholder="Berlin">
+                            </div>
+                            <div class="zip-code">
+                                <label class="zip-code" for="Zip Code">Zip Code</label>
+                                <input id="Zip-Code" type="number" placeholder="10178">
+                            </div>
+                    </div>
+                    <button class="first-button">Signup now</button>
+                </form>
+                    <button onclick="window.location.href='https://www.facebook.com/'" class="second-button">Signup with Facebook</button>
+                    <button onclick="window.location.href='index.html'" class="third-button">Home Page</button>
+            </div>
+            </div>
+        </div>
+        <script>
+        //    function changecolor()={
+        //     const moon = document.getElementById('moon')
+
+
+        //    }
+        </script>
+    
+</body>
+</html>

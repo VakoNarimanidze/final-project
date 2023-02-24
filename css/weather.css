@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.weather-container {
+    background-image: url(/images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    padding-bottom: 50px;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.19);
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img {
+    margin-left: 70px;
+    cursor: pointer;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    font-size: 24px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.last-child {
+    margin-right: 90px;
+}
+
+.weather-box {
+    max-width: 400px;
+    width: 100%;
+    min-height: 505px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 48px;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+
+.vector {
+    margin-left: 350px;
+    margin-top: 30px;
+    cursor: pointer;
+}
